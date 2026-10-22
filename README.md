@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 天益游 OTA 外置 Mock 服务
 
 基于本机 MySQL 的轻量协议模拟器，按 `E:\developmentWorkspace\tyy\tianyiyou-backend\src\main\java\com\tianyiyou\ota\OtaGateway.java` 和 `OtaWorkflow.java` 的实际调用实现。仅用于开发联调；航班、酒店、门票、预订和票号都是虚构数据，不会连接真实供应商。
@@ -76,3 +77,6 @@ cloudflared tunnel --url http://127.0.0.1:8787
 ## 清空本地数据
 
 删除 MySQL `tyy_ota_mock` 数据库后重启服务，会重新创建空库和表。数据库仅包含模拟报价、虚构预订资料和接口事件记录。
+=======
+# tyy-ota-mock
+>>>>>>> c6f926a2c1ebe0dba1969b744cd8485b4d45ac44
